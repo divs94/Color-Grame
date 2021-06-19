@@ -1,3 +1,4 @@
+
 body{background-color: black;
 margin: 0;
 font-family:"montserrat", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,8 +37,9 @@ h1{
     color: black;
 }
 #message{
-    display: inline-block;
+    display: inline;
     width: 15%;
+    padding: 4%;
 }
 .selected{
     color: white;
@@ -79,11 +81,11 @@ margin-left: 10px;
 margin-top: 25px;
 }
 @media(max-width: 768px){
-    #logo{
-    font-size: 2rem;
+  #heading  #logo{
+    font-size: 4rem;
     float: left;
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 6px;
 }
   #heading{
       font-size: 15px;
@@ -96,7 +98,56 @@ margin-top: 25px;
 }
 
 #stripe #message{
+ width: 15%;
+}
+}
+@media(max-width: 468px){
+   #heading  #logo{
+    font-size: 2rem;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+  #heading{
+      font-size: 10px;
+  }
+  #container{
+    max-width: 230px;
+}
+#stripe{
+ height: 30px;
+}
+button{
+    font-size: 10px;
+}
 
- font-size: 15px;
+#stripe #message{
+
+ font-size: 10px;
+}
+}
+@media(max-width: 360px){
+   #heading  #logo{
+    font-size: 2rem;
+    float: left;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+  #heading{
+      font-size: 10px;
+  }
+  #container{
+    max-width: 230px;
+}
+#stripe{
+ height: 30px;
+ margin: auto;
+}
+button{
+    font-size: 12px;
+}
+
+#stripe #message{
+ font-size: 12px;
 }
 }

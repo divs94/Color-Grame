@@ -91,4 +91,11 @@ margin-top: 25px;
   #container{
     max-width: 350px;
 }
+#stripe{
+ height: 30px;
+}
+
+#stripe #message{
+ height: 6%;
+}
 }
